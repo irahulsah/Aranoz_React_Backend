@@ -47,7 +47,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    `mongodb+srv://IRAHULSAH:86242@cluster0-7sht0.mongodb.net/ecommerce`,
+    `mongodb+srv://irahulsah:d0aexA1onKPApJR2@cluster1.ppmtu.mongodb.net/test?retryWrites=true&w=majority`,
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
